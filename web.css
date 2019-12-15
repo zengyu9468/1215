@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none; 
+}
+.box1{
+	height: 500px;
+}
+.xxx{
+	position: relative;
+	height: 20px;
+	background-color: #ccc;
+}
+.box2{
+	position: absolute;
+	top: 0px;
+	left: 80%;
+	width: 320px;
+	height: 20px;
+	background-color: #ccc;	
+}
+.yyy{
+	position: absolute;
+	left: 20%;
+	top: 0px;
+}
+#move{
+	margin-left: 1200px;
+	font-size: 12px;
+	color: red;
+}
+.box{
+	width: 1200px;
+	height: 382px;
+	border: 1px solid red;
+	margin: 10px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+	color: white;
+}
+#right{
+	right: 30px;
+	color: white;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center
+}
+.nav .active{
+	background:red;
+	color: white;
+}
